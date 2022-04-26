@@ -1,4 +1,4 @@
-export interface User {
+export interface IUser {
   id: number;
   firstName: string;
   lastName: string;
@@ -9,7 +9,7 @@ export interface User {
   comments: string[];
 }
 
-export interface Office {
+export interface IOffice {
   id: number;
   title: string;
   description: string;
@@ -19,7 +19,7 @@ export interface Office {
   status: AdStatus;
 }
 
-export interface Deal {
+export interface IDeal {
   id: number;
   ownerId: number;
   customerId: number;

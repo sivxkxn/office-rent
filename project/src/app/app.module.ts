@@ -22,6 +22,17 @@ import { OwnsOfficesPageComponent } from './components/owns-offices-page/owns-of
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 import { RegistrationPageComponent } from './components/registration-page/registration-page.component';
 
+// import { MatButtonModule } from '@angular/material/button';
+// import { MatButtonToggleModule } from '@angular/material/button-toggle';
+// import { MatCardModule } from '@angular/material/card';
+// import { MatFormFieldModule } from '@angular/material/form-field';
+// import { MatIconModule } from '@angular/material/icon';
+// import { MatInputModule } from '@angular/material/input';
+// import { MatMenuModule } from '@angular/material/menu';
+// import { MatPaginatorModule } from '@angular/material/paginator';
+// import { MatTableModule } from '@angular/material/table';
+// import { MatToolbarModule } from '@angular/material/toolbar'
+
 const appRoutes: Routes = [
   { path: '', component: MainPageComponent },
   { path: 'registration', component: RegistrationPageComponent },
@@ -51,7 +62,8 @@ const appRoutes: Routes = [
     FavoritePageComponent,
     DealsPageComponent,
     LoginPageComponent,
-    OfficeCardComponent
+    OfficeCardComponent,
+    MatFormFieldModule,
   ],
   imports: [
     BrowserModule,
